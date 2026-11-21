@@ -1,0 +1,41 @@
+# --- Secrets (le plus important) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Environnement virtuel ---
+.venv/
+venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Bases vectorielles et données générées ---
+chroma_db/
+*.sqlite3
+*.db
+
+# --- Modèles et caches téléchargés ---
+.cache/
+models/
+*.bin
+*.safetensors
+
+# --- Docker ---
+*.log
+
+# --- Éditeurs et système ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
